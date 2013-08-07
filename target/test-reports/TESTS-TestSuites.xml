@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="ubuntu" id="0" name="FileNameValidatorTests" package="excemplify" tests="1" time="0.101" timestamp="2012-07-16T13:33:31">
+      <properties />
+
+      <testcase classname="excemplify.FileNameValidatorTests" name="testProvedOrNot" time="0.06" />
+
+      <system-out><![CDATA[--Output from testProvedOrNot--
+File formate other than .txt or .xls is not acceptted.
+false
+File formate other than .txt or .xls is not acceptted.
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testProvedOrNot--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

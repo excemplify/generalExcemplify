@@ -1,0 +1,456 @@
+/* 
+    Document   : demo
+    Created on : May 2, 2012, 12:09:42 PM
+    Author     : rongji
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 100px;
+    color: black;
+    font-family: serif;
+    font-size: 13px;
+}
+
+
+div .buttonTable {
+    color: black;
+    width:100%;
+    text-align: left;
+    font-family: serif;
+    font-size: 13px;  
+}
+div .buttonTable tr td {
+
+    width:50%;
+    vertical-align: baseline;
+
+}
+.ui-widget-header2 { border: 1px solid #494437; background: #817865 url(images/ui-bg_gloss-wave_45_817865_500x100.png) 20% 20% repeat-x; color: #ffffff; font-weight: bold; }
+
+#follower{
+    position : absolute;
+    background-color : lightblue;
+    color : white;
+    padding : 10px;
+}
+
+
+.wrapper {
+    margin: 10px;
+    background-color: #CCCCCC;
+}
+#form{
+
+    border: none;
+}
+#button{
+
+    border: none;
+}
+#header {
+    text-align: left;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    padding-left: 50px;
+}
+#mode {
+    text-align: left;
+    font-size: 1em;
+    padding: 10px;
+    border: none;
+    padding-left: 50px;
+}
+.headercontent{
+    height:12%;
+}
+.title{
+    color: #505050;
+    font-family: serif; 
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.tablecontent{
+    width: 98%;
+    max-height: 400px;
+    overflow: auto;
+    font-family: serif;
+    font-size: 12px;
+    font-weight: normal;
+}
+.maincontent{
+    width:100%;
+    height:87%;
+    min-height: 550px;
+    overflow: auto;
+    vertical-align: middle;
+
+}
+.buttoncontent{
+    height: 4%;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 10px;
+    min-height: 50px;
+}
+.funtd{
+
+    cursor: pointer;
+
+}
+.funtd:hover{
+    color: greenyellow;
+    font-weight: bold;
+}
+.navspan{
+
+    color:black;
+    width:300px;
+    display:inline-block;
+    cursor: pointer;
+
+}
+.navspan:hover{
+    color: darkgoldenrod;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+.link{
+    
+    color:white;
+    cursor:pointer;
+    
+}
+.link:hover{
+    font-weight: bold;
+}
+.messagecontent{
+    height: 7%;
+    min-height: 30px;
+}
+.corecontent{
+    width:100%;
+    height:80%;
+    text-align: center;
+
+}
+.hiddencontent{
+    height:3%;
+    font-size: 14px;
+}
+.saveastable{
+    font-family: sans-serif;
+    font-size: 12px;
+    margin: 2px; 
+    border: 1px; 
+    width: 350px;  
+}
+.saveastable td{
+
+    width: 160px;  
+}
+.templateSelect{
+    font-family: sans-serif;
+    font-size: 14px;
+    margin: 2px; 
+    border: 1px; 
+    border-color: blue;
+    border-style:dashed;
+    width: 550px;
+}
+.footer{
+
+    height:1%;
+    max-height: 8px;
+
+}
+
+.inline{
+    margin: 10px;
+    vertical-align: middle;
+    list-style: none;
+
+
+}
+.inline li{
+
+    display: -moz-inline-stack;
+    /*    padding: 2px;*/
+    display: inline-block;
+    padding: 5px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+.buttons {
+    /*    background: #fff url(../images/blabla.png);*/
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 0;
+}
+.instrucClass {
+    border: 1px solid   darkslateblue;
+    width: 80%
+}
+
+.instrucClassTh {
+    background: peachpuff;
+    color: slateblue;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+
+div.tableheader{
+    font-size: 1em;
+    color: rgb(0,116,199); 
+    font-weight: bold; 
+    font-family:Segoe; 
+    padding-left: 2.1em;
+    margin-bottom: 1.5em;
+}
+div.tablecontent{
+
+    padding-left: 2.1em;
+}
+
+table.styletable{
+    border: 1px solid #ccc;
+
+}
+
+table.styletable tr {
+    border: 0;
+
+}
+table.styletable td, th {
+    font: 13px serif;
+    line-height: 12px;
+    padding: 5px 6px;
+    text-align: left;
+    vertical-align: top;
+}
+table.styletable th {
+    background: #fff ;
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+table.styletable th a:link, th a:visited, th a:hover {
+    color: #333;
+    display: block;
+    font-size: 11px;
+    text-decoration: none;
+    width: 100%;
+}
+
+
+table.styletable .odd {
+    background: #fff;
+
+
+}
+table.styletable .even {
+
+    background: #f7f7f7;
+
+}
+
+
+
+.odd {
+    background: #f7f7f7;
+    color: black;
+    height:20px;
+}
+.even {
+    background: #fff;
+    color: black;
+    height:20px;
+}
+
+.warning
+{
+    border: 2px dotted red;
+}
+.alert{
+    font-family: serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: orange;
+
+}
+
+
+
+/* tables */
+table.tablesorter {
+    font-family:serif;
+    background-color: #CDCDCD;
+    margin:2px 0pt 2px;
+    font-size: 8pt;
+    width: 100%;
+    text-align: center;
+    vertical-align: baseline;
+
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 8pt;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin: 5px;
+    text-align: center;
+    vertical-align:  middle;
+}
+table.tablesorter thead tr th img{
+
+    padding: 0px;
+
+
+
+}
+
+table.tablesorter thead tr .header {
+    background-image: url(../images/ui/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+    vertical-align:  middle;
+}
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 2px;
+    background-color: #FFF;
+
+    text-align: center;
+    vertical-align:  middle;
+}
+table.tablesorter tbody td img{
+    text-align: center;
+    vertical-align:  middle;
+
+}
+
+table.tablesorter tbody tr.odd td {
+    background-color:#F0F0F6;
+    text-align: center;
+    vertical-align:  middle;
+
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../images/ui/asc.gif);
+
+
+
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../images/ui/desc.gif);
+
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+
+label,select,.ui-select-menu { margin-right: 2px; }
+select { width: 400px; }
+.wrap ul.ui-selectmenu-menu-popup li a { font-weight: bold; }
+
+
+/*footer*/
+#footer {
+    border-top: 2px solid #D0C7C4;
+    clear: both;
+    min-height: 2px;
+    margin-top: -2px; /* negative value of footer height */
+    position: relative;
+    width:100%; 
+    text-align: center;
+}
+
+#footerNavigation{
+
+    width:100%;
+    text-align: center;
+
+}
+#footerNavigation ul{
+    margin: 2px auto;
+    width:400px;
+    text-align: center;
+
+
+}
+
+#footerNavigation ul li{
+    float: left;
+    font-size:12px;
+    list-style: none;
+}
+
+#footerNavigation ul li a{
+    color: #808080;
+    margin: 0 1px;
+}
+
+#footerNavigation ul li a:hover{
+    color: #adadad;
+}
+
+#funding{
+
+    margin: 2px auto;
+    width: 700px;
+    text-align: center;
+}
+#funding ul li{
+    float: left;
+    list-style: none;
+
+
+}
+#funding ul li, #funding ul a{height:52px; display: block; margin-right: 1px; vertical-align: middle}
+
+#item1{width:90px;background:url('../images/ui/dfg_logo_blau.png'); background-repeat: no-repeat}
+#item2{width:80px;background:url('../images/ui/hits.png'); background-repeat: no-repeat}
+#item3{width:180px;background:url('../images/ui/dkfz_logo_en.gif'); background-repeat: no-repeat}
+#item4{width:90px;background:url('../images/ui/SABIO-RK.png'); background-repeat: no-repeat}
+#item5{width:120px;background:url('../images/ui/seek-logo.png'); background-repeat: no-repeat}
+
+/*each funding img has a height of 40px*/
+#funding img{
+
+    margin: 0 2px;
+    padding: 0 ;
+}
+
+/*
+customize uploadr
+*/
+div.uploadr {
+    min-height: 400px;
+}
+div.uploadr .files {
+    min-height: 400px;
+}

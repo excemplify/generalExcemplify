@@ -1,0 +1,97 @@
+/* 
+    Document   : customuploadr
+    Created on : Jul 10, 2012, 11:20:17 AM
+    Author     : rongji
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.uploadr .cuswarning {
+    border: 1px solid #00a8e1;
+    box-shadow: 0 0 20px #CCCCCC;
+    padding: 20px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 20px;
+    width: 450px;
+    height: 450px;
+}
+
+.uploadr .cuswarning a, .uploadr .cuswarning a:visited {
+    text-decoration: none;
+    color: #00a8e1;
+    font-weight: normal;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.30);
+}
+
+.uploadr .cuswarning a:hover {
+    border-bottom: 1px dotted red;
+}
+
+.uploadr .cuswarning .message {
+    font-size: 14px;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.30);
+    text-align: center;
+    font-family: Arial,'Helvetica Neue',Helvetica,sans-serif;
+    padding-bottom: 20px;
+}
+
+.uploadr .cuswarning .button {
+    margin-left:auto;
+    margin-right:auto;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 280px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    color: #fff;
+    background: #3d80f5;
+    background: -moz-linear-gradient(top, #f3eb7b, #ecac00);
+    background: -webkit-gradient(linear,left top, left bottom, from(#f3eb7b), to(#ecac00));
+    filter: progid:DXImageTransform.Microsoft.Gradient(StartColorStr='#f3eb7b', EndColorStr='#ecac00', GradientType=0);
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.uploadr .cuswarning .button a, .uploadr .cuswarning .button:visited {
+    color: #fff;
+}
+
+.uploadr .cuswarning .button a:hover {
+    color: #ffe7ec;
+    border: none;
+}
+
+.uploadr .cuswarning .browsers {
+    display: block;
+    text-align: center;
+}
+
+.uploadr .cuswarning .browsers .browser {
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    vertical-align: top;
+}
+
+.uploadr .cuswarning .browsers .chrome {
+    background-image: url(../images/chrome.png);
+}
+
+.uploadr .cuswarning .browsers .firefox {
+    background-image: url(../images/firefox.png);
+}
+
+.uploadr .cuswarning .browsers .safari {
+    background-image: url(../images/safari.png);
+}
+
+.uploadr .cuswarning .browsers .anchor {
+    margin-top: 80px;
+   
+    
+}

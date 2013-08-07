@@ -1,0 +1,77 @@
+/* 
+    Document   : demo
+    Created on : May 2, 2012, 12:09:42 PM
+    Author     : rongji
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 100px;
+    color: black;
+    font-family: serif;
+    font-size: 13px;
+}
+
+
+.wrapper {
+    margin: 10px;
+    background-color: #CCCCCC;
+}
+#form{
+
+    border: none;
+}
+#button{
+
+    border: none;
+}
+#header {
+    text-align: left;
+    font-size: 1.5em;
+    padding: 18px;
+    border: none;
+    padding-left: 150px;
+}
+.buttons {
+    background: #fff url(../images/blabla.png);
+    border: 1px solid #ccc;
+    color: #666;
+    font-size: 10px;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 0;
+}
+.instrucClass {
+    border: 1px solid   darkslateblue;
+    width: 80%
+}
+
+.instrucClassTh {
+    background: peachpuff;
+    color: slateblue;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 17px;
+    padding: 2px 6px;
+}
+.odd {
+    background: #f7f7f7;
+}
+.even {
+    background: #fff;
+}
+.warning
+{
+    border: 2px dotted red;
+}
