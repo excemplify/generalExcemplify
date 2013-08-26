@@ -1,4 +1,2 @@
 generalExcemplify
 =================
-
-more general solution

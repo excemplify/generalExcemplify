@@ -437,8 +437,6 @@ class GeneralExcelCellSource implements Source{
     def traverse(action){
         
         println action
-      
-      
         int pleaseTraverse
         if(this.autoFindDirection=="down"){
             pleaseTraverse=sourceCRA.getLastRow()

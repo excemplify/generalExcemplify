@@ -30,8 +30,6 @@ import org.hits.ui.exceptions.CustomizedException
 
 class LabController {
     def springSecurityService
-    // def parserService
-    //def experimentParsersConfigService
     def generalParserService
     def generalParserConfigService
     def mailService

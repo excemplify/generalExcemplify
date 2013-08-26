@@ -77,7 +77,7 @@ class ExperimentController {
                     //                experimentInstance.resources.clear()
                     //                experimentInstance.updates.clear()
               generalParserConfigService.deleteConfig(experimentInstance)
-                    
+                  
                     def r = []
                     r += experimentInstance.resources
                     r.each{resource->
